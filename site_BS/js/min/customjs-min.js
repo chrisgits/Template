@@ -1,0 +1,1 @@
+$("#mblmenu").click(function(){$(".mblnav").slideToggle()});

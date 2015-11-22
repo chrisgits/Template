@@ -1,0 +1,27 @@
+/* Pixel Engineering Co -- Custom CSS -- Handcrafted Code -- */
+
+body {
+  font-size: 20px;
+  background-color: white;
+  overflow-x: hidden; /* this helps with mobile device displaying white margin on right */
+}
+
+
+  
+}/*END @media <700px*/
+
+@media (min-width: 701px){
+  
+  .mblnav {
+    display: none;
+  }
+  
+}/*END @media >700px*/
+
+
+
+
+
+
+
+

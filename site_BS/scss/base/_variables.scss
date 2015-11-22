@@ -1,0 +1,24 @@
+// Descriptive color variables
+
+$white      : #fff;
+$black      : #000;
+$gray       : #878787;
+
+// Functional color variables
+
+$color-prim     : $white;
+
+$color-link-default : blue;
+$color-link-visited : purple;
+
+// Font stacks
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
+//add custom font stacks here
+
+// Border radius
+$br : 10px;
+
+// Asset paths
+$path-img : '../img';
+$path-img : '../fonts';
