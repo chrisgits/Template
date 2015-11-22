@@ -54,7 +54,7 @@ gulp.task('clean', function () {
 
 // create build task to run all tasks with one task
 gulp.task("build", ['minifyScripts', 'compileSass'], function () {
-  return gulp.src(["css/cdapplication.css", "js/app.min.js", 'index.html',
+  return gulp.src(["css/app*.css", "js/app.min.js", 'index.html',
                     "img/**", "fonts/**"], { base: './'}) 
               //this makes sure that folder structure is maintained in
               //dist folder
